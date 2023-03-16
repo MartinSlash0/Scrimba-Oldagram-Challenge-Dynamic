@@ -59,6 +59,10 @@ header .user-img {
 
     border-radius: 50%;
 }
+.user-img:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
 
 .post {
     width: 375px;
@@ -107,11 +111,11 @@ header .user-img {
 @media (min-width: 574px) {   
     header .user-img {
         margin: 10px 25px;
-        width: 55px;
-        height: 55px;
+        width: 40px;
+        height: 40px;
     }
     .logo {
-        width: 200px;
+        width: 125px;
         margin: 10px 25px;
     }
 
