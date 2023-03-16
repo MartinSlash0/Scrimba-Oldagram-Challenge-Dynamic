@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    background-color: #ededed;
+}
+
+/* typography */
+
+p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+span {
+    font-weight: 700;
+}
+
+/* layout */
+
+section {
+    width: 375px;
+
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+
+    margin: 0 auto;
+
+    background-color: #FFFFFF;
+    border-bottom: solid 2px #C6C6C6;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+}
+
+header .user-img {
+    padding: 10px 16px;
+}
+
+.logo {
+    width: 127px;
+    margin: 10px 16px;
+}
+
+.user-img {
+    width: 34px;
+    height: 34px;
+
+    border-radius: 50%;
+}
+
+.post {
+    width: 375px;
+
+    margin: 0 auto 25px auto;
+    padding: 0;
+
+    background-color: #FFFFFF;
+}
+
+.post-img {
+    height: 375px;
+    width: 375px;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 4px 10px;
+}
+
+.container-info {
+    padding: 10px;
+}
+
+.btn-icons {
+    width: 24px;
+    margin: 20px 0 5px 10px;
+}
+.btn-icons:hover, .btn-icons:active {
+    cursor: pointer;
+    opacity: 60%;
+}
+
+.post-likes {
+    padding-bottom: 5px;
+}
+.post-likes p {
+    margin: 0 0 10px 10px;
+}
+
+
+
+@media (min-width: 574px) {   
+    header .user-img {
+        margin: 10px 25px;
+        width: 55px;
+        height: 55px;
+    }
+    .logo {
+        width: 200px;
+        margin: 10px 25px;
+    }
+
+    .post {
+        width: 550px;
+    
+        margin: 0 auto 25px auto;
+    }
+    .post-img {
+        height: 550px;
+        width: 550px;
+    }
+}
